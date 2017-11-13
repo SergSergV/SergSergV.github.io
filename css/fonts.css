@@ -1,0 +1,24 @@
+@font-face {
+	font-family: 'A Avante Bs';
+	src: url('../fonts/AAvanteBs.ttf') format('truetype'), 
+		url('../fonts/AAvanteBs.woff') format('woff'),
+		url('../fonts/AAvanteBs.woff2') format('woff2');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'A Avante Bs Extra Bold';
+	src: url('../fonts/AAvanteBs-ExtraBold.ttf') format('truetype'), 
+		url('../fonts/AAvanteBs-ExtraBold.woff') format('woff'),
+		url('../fonts/AAvanteBs-ExtraBold.woff2') format('woff2');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'DIN Pro';
+	src: url('../fonts/DINPro-Bold.ttf') format('truetype'), 
+		url('../fonts/DINPro-Bold.woff') format('woff'),
+		url('../fonts/DINPro-Bold.woff2') format('woff2');
+	font-weight: normal;
+	font-style: normal;
+}

@@ -1,168 +1,260 @@
 <!DOCTYPE html>
 <html lang="ru">
-
 <head>
-
-  <!-- Basic Page Needs
-  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  <meta charset="utf-8">
-  <title>Студия братьев Сергеевых</title>
-  <meta name="description" content="Рисованный дизайн, продвижение в социальных сетях и пошив одежды в историческом центре Казани">
-  <meta name="author" content="Дамир Фахриев">
-
-  <!-- Mobile Specific Metas
-  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  <meta name="viewport" content="width=device-width, initial-scale=0">
-
-  <!-- FONT
-  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  <link href="http://allfont.ru/allfont.css?fonts=a_avantebs-extrabold" rel="stylesheet" type="text/css" />
-
-  <!-- CSS
-  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  <link rel="stylesheet" href="css/normalize.css">
-  <link rel="stylesheet" href="css/skeleton.css">
-
-  <!-- Favicon
-  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  <!-- <link rel="icon" type="image/png" href="images/favicon.png"> -->
-
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/jquery.fullpage.css">
+  <title>SergeevBrothers</title>
 </head>
-
 <body>
+  <main class="page">
+    <section class="section header">
+      <div class="header-container">
+        <div class="header--right">
+          <div class="header--vertical">
+            <a href="" class="logo">
+              <img src="images/icons/logo-min.png" alt="">
+            </a>
+            <img src="images/icons/we-draw-min.png" alt="" class="we-draw">
+            <img src="images/icons/promote-min.png" alt="" class="promote">
+            <img src="images/icons/sew-clothes-min.png" alt="" class="we-clothes">
+            <a class="menu__item menu__item--contacts">контакты</a>
+            
+          </div>
+          <div class="header__menu">
+            <div class="menu__flex">  
+              <a class="menu__item menu__item--wedraw"></a>
+              <a class="menu__item menu__item--smm"><span>sмм</span></a>
+              <a class="menu__item menu__item--clothes"></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+ 
+    <section class="section about">
+      <div class="about-container">
+        <div class="about__content">
+          <h2 class="about__title"><span>o</span> проекте</h2>
+          <div class="about__text">
+            #БратьяСергеевы - это не просто дизайн-студия, это возможность. Возможность стать заметнее, стать уверенными и неповторимыми. Мы знаем как внести в проект, коммерческий или социальный, свою изюминку. Мы рассматриваем проект с многих сторон и уделяем внимание абсолютно всем составляющим. 
+            За счет нестандартного дизайна, продвижения благодаря интересному контенту и тимбилдингу. Мы стараемся выдвинуть проект на новый уровень. 
+            Какой бы сферы ни касались #БРАТЬЯСЕРГЕЕВЫ -  всё будет сделано в лучшем виде.
+          </div>
+        </div>
+      </div>
+    </section>
 
-  <!-- Primary Page Layout
-  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  <img class="sd--bg" src="images/full-bg.png" alt="">
-  <div class="container">
-    <div class="row">
-      <div class="offset-by-seven five columns sd__screen_1">
-        <img class="logo" src="images/logo.png" alt="Студия братьев Сергеевых">
-        <img class="draw" src="images/we-draw.png" alt="Мы рисуем нешаблонный дизайн">
-        <img class="smm" src="images/we-smm.png" alt="Продвигаем в социальных сетях">
-        <img class="sew" src="images/we-sew.png" alt="Шьем одежду"><br>
-        <a class="btn" href="">
-          <img class="normal" src="images/we-contact.png" alt="">
-          <img class="hover" src="images/we-contact-hover.png" alt="">
-          <img class="active" src="images/we-contact-active.png" alt="">
-        </a>
+    <section class="section clients">
+      <div class="clients-container">
+        <div class="client__block">
+          <div class="clients__title"></div>
+          <div class="clients__flex">
+            <div class="client">
+              <img src="images/partners/timerman-min.png">
+            </div>
+            <div class="client">
+              <img src="images/partners/federation-min.png">
+            </div>
+            <div class="client">
+              <img src="images/partners/unior-min.png">
+            </div>
+            <div class="client">
+              <img src="images/partners/kazan-min.png">
+            </div>
+            <div class="client">
+              <img src="images/partners/bank-devon-min.png">
+            </div>
+            <div class="client">
+              <img src="images/partners/gvardia-min.png">
+            </div>
+            <div class="client">
+              <img src="images/partners/sport-min.png">
+            </div>
+            <div class="client">
+              <img src="images/partners/akulchev-min.png">
+            </div>
+            <div class="client">
+              <img src="images/partners/garuss-min.png">
+            </div>
+          </div>
+        </div>
       </div>
-    </div>
-  </div>
-  <div class="container">
-    <div class="row">
-      <div class="offset-by-nine three columns sd__screen_2">
-        <h2><span class="green">О</span> проекте</h2>
-        <p class="about">Сотрудничество с братьями Сергеевыми&nbsp;— это возможность стать заметнее, стать более уверенными и неповторимыми.
-          <br>Мы знаем, как внести в коммерческий или социальный проект свою изюминку, потому что рассматриваем его с многих сторон и уделяем внимание абсолютно всем составляющим.
-          <br>За счет нестандартного дизайна, продвижения благодаря интересному контенту и тимбилдингу мы выдвигаем проект на новый уровень.
-          <br>Какой бы сферы ни касались #БРАТЬЯСЕРГЕЕВЫ — всё будет сделано в лучшем виде.</p>
+    </section>
+ 
+    <section class="section wedraw" id="wedraw">
+      <div class="wedraw-container">
+        <div class="wedraw__price-block">
+          <div class="price__btn">прайс-лист</div>
+          <div class="price-block">
+            <div class="price-block__row">
+              <span>услуги</span>
+              <span>цены в рублях</span>
+            </div>
+            <div class="price-block__row">
+              <span>Логотип</span>
+              <span class="price-block__dots"></span>
+              <span>3 000 - 10 000</span>
+            </div>
+            <div class="price-block__row">
+              <span>фир. стиль</span>
+              <span class="price-block__dots"></span>
+              <span>от 6 000</span>
+            </div>
+            <div class="price-block__row">
+              <span>презентация</span>
+              <span class="price-block__dots"></span>
+              <span>от 4 000</span>
+            </div>
+            <div class="price-block__row">
+              <span>Web-дизайн</span>
+              <span class="price-block__dots"></span>
+              <span>3 000 - 20 000</span>
+            </div>
+            <div class="price-block__row">
+              <span>афиша</span>
+              <span class="price-block__dots"></span>
+              <span>от 3 000</span>
+            </div>
+            <div class="price-block__row">
+              <span>брендбук</span>
+              <span class="price-block__dots"></span>
+              <span>12 000 - 40 000</span>
+            </div>
+            <div class="price-block__row">
+              <span>портрет</span>
+              <span class="price-block__dots"></span>
+              <span>от 2 500</span>
+            </div>
+            <div class="price-block__row">
+              <span>листовка</span>
+              <span class="price-block__dots"></span>
+              <span>1 500 - 5000</span>
+            </div>
+            <div class="price-block__row">
+              <span>буклет</span>
+              <span class="price-block__dots"></span>
+              <span>от 2 000</span>
+            </div>
+            <div class="price-block__row">
+              <span>упаковка</span>
+              <span class="price-block__dots"></span>
+              <span>от 4 000</span>
+            </div>
+            <div class="price-block__row">
+              <span>соц. сети</span>
+              <span class="price-block__dots"></span>
+              <span>от 500</span>
+            </div>
+          </div>
+        </div>
+        <div class="wedraw__content">
+          <span class="wedraw__span">Мы рисуем <br>крутой</span>
+          <div class="wedraw__design"></div>
+          <span class="wedraw__span2">Мы - креативная дизайн-студия, специализирующаяся на нестандартном рисованном дизайне</span>
+          <a href="https://www.behance.net/Brotherssergeevy" target="_blank" class="wedraw__portfolio"></a>
+        </div>
       </div>
-    </div>
-  </div>
-  <div class="container">
-    <div class="row">
-      <div class="offset-by-six six columns sd__screen_3">
-        <img src="images/clients.png" alt="Нам доверяют">
-      </div>
-    </div>
-    <div class="row">
-      <div class="offset-by-one-half three columns clients">
-        <img src="images/mol-gvard.png" alt="Молодая гвардия">
-      </div>
-      <div class="three columns clients">
-        <img src="images/devon-credit.png" alt="Девон-кредит">
-      </div>
-    </div>
-    <div class="row">
-      <div class="offset-by-three three columns clients">
-        <img src="images/ns-brand.png" alt="Новый спорт">
-      </div>
-      <div class="three columns clients">
-        <img src="images/unior.png" alt="Юниор">
-      </div>
-      <div class="three columns clients">
-        <img src="images/skifed.png" alt="Федерация лыжных гонок и биатлона РТ">
-      </div>
-    </div>
-    <div class="row">
-      <div class="offset-by-three three columns clients">
-        <img src="images/akulchev.png" alt="Акульчев">
-      </div>
-      <div class="three columns clients">
-        <img src="images/garuss.png" alt="Garuss">
-      </div>
-      <div class="three columns clients">
-        <img src="images/kazanski.png" alt="Казанский лыжный марафон">
-      </div>
-    </div>
-  </div>
-  <div class="container">
-    <div class="row">
-      <div class="five columns sd__screen_4">
-        <h1>SMM</h1>
-        <img src="images/smm.png" alt="Продвигаем в социальных сетях">
-        <p>Бренды и стартапы, создавая лояльную аудиторию: придумываем понятные контент-планы, создаем увлекательные материалы и анализируем итоговый "выхлоп".</p>
-      </div>
-    </div>
-  </div>
-  <div class="container">
-    <div class="row">
-      <div class="five columns sd__screen_5">
-        <h1>Пошив</h1>
-        <img src="images/wear.png" alt="Пошив одежды">
-        <p>Для компаний, которые хотят отличаться от других не только в офисе, но и в повседневной жизни, которые хотят, чтобы их сотрудники чувствовали себя частью команды даже вне рабочего времени.</p>
-        <p>в сотрудничестве с</p>
-        <img src="images/with-ns.png" alt="NS Wear">
-      </div>
-    </div>
-  </div>
-  <div class="container">
-    <div class="row">
-      <div class="eight columns sd__screen_6">
-        <h1>Команда</h1>
-        <img class="teammate" src="images/daniil.png" alt="Даниил">
-        <img class="teammate" src="images/ilnar.png" alt="Ильнар">
-        <img class="teammate" src="images/somewho.png" alt="Чел какой-то">
-        <img class="teammate" src="images/nastya.png" alt="Настя">
-        <img class="teammate" src="images/fanil.png" alt="Фаниль">
-      </div>
-      <div class="four columns sd__screen_6--teammates">
-        <img class="teammates" src="images/sergey.png" alt="Сергей">
-        <img class="teammates" src="images/alena.png" alt="Алёна">
-      </div>
-    </div>
-    <div class="row">
-      <div class="four columns social"><a class="insta" href="https://instagram.com/sergeevbrothers" target="_blank">sergeevbrothers</a></div>
-      <div class="four columns social"><a class="vk" href="https://vk.com/sergeevidesign" target="_blank">sergeevidesign</a></div>
-      <div class="four columns social"><a class="fb" href="https://facebook.com/sergeevbrothers" target="_blank">sergeevbrothers</a></div>
-    </div>
-    <div class="row call-us">
-      <div class="one column">
-        <p>тел.</p>
-      </div>
-      <div class="offset-by-one three columns">
-        <p>Сергей Сергеев — менеджер
-          <br><a href="tel:+79033440444" title="Сергей Сергеев">+7 (903) 344-04-44</a></p>
-      </div>
-      <div class="four columns">
-        <p>Даниил Сергеев — гл.&nbsp;дизайнер
-          <br><a href="tel:+79050223777" title="Даниил Сергеев">+7 (905) 022-37-77</a></p>
-      </div>
-    </div>
-    <div class="row visit-us">
-      <div class="two columns">
-        <p>адрес.</p>
-      </div>
-      <div class="four columns">
-        <p class="">РТ, Казань,
-          <br>ул.&nbsp;Дзержинского, 9/1, офис. 29</p>
-      </div>
-    </div>
-  </div>
+    </section>
 
-  <!-- End Document
-  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <section class="section smm" id="smm">
+      <div class="smm-container">
+        <div class="smm__content">
+          <span class="smm__span">sмм</span>
+          <div class="smm__promote"></div>
+          <span class="smm__text">Бренды и стартапы, создавая лояльную аудиторию: придумываем понятные контент-планы, создаем увлекательные материалы и анализируем итоговый "выхлоп".</span>
+        </div>
+      </div>
+    </section>
+    
+    <section class="section clothes" id="clothes">
+      <div class="clothes-container">
+        <div class="clothes__content">
+          <span class="clothes__span">пошив</span>
+          <div class="clothes__img"></div>
+          <span class="clothes__text">Для компаний, которые хотят отличаться от других не только в офисе, но и в повседневной жизни, которые хотят, чтобы их сотрудники чувствовали себя частью команды даже вне рабочего времени.</span>
+          <span class="clothes__span2">В сотрудничестве с </span>
+          <div class="clothes__img2"></div>
+        </div>
+      </div>
+    </section>
+    
+    <section class="section team">
+      <div class="team-container">
+        <div class="team-block">
+          <h2 class="team__title">команда</h2>
+          <div class="team__flex">
+            <a href="https://vk.com/id41844364" target="_blank" class="teammate daniil">
+              <div class="daniil-img"></div>
+              <div class="daniil-name"></div>
+            </a>
+            <a href="" class="teammate ilnar">
+              <div class="ilnar-img"></div>
+              <div class="ilnar-name"></div>
+            </a>
+            <a href="" class="teammate whoman">
+              <div class="whoman-img"></div>
+              <div class="whoman-name"></div>
+            </a>
+            <a href="" class="teammate nastja">
+              <div class="nastja-img"></div>
+              <div class="nastja-name"></div>
+            </a>
+            <a href="https://vk.com/ex_clusiv" target="_blank" class="teammate fanil">
+              <div class="fanil-img"></div>
+              <div class="fanil-name"></div>
+            </a>
+            <a href="https://vk.com/sergsergv" target="_blank" class="teammate sergei">
+              <div class="sergei-img"></div>
+              <div class="sergei-name"></div>
+            </a>
+            <a href="https://vk.com/alyonaleksandrovnakomarova" target="_blank" class="teammate alena">
+              <div class="alena-img"></div>
+              <div class="alena-name"></div>
+            </a>
+          </div>
+        </div>
+        <div class="footer" id="contacts">
+          <div class="footer__contacts">
+            <a href="https://www.instagram.com/sergeevbrothers" target="_blank" class="footer--ig"></a>
+            <a href="https://vk.com/sergeevidesign" target="_blank" class="footer--vk"></a>
+            <a href="https://www.facebook.com/sergeevbrothers" target="_blank" class="footer--fb"></a>
+          </div>
+          <div class="footer__bottom">
+            <div>
+              <div class="footer__phone">
+                <span class="footer--bold">тел.</span>
+                <div class="footer__phone_block">
+                  <b>Сергей Сергеев</b> - менеджер<br>
+                  + 7 90 33 440 <b>444</b>
+                </div>
+                <div class="footer__phone_divider"></div>
+                <div class="footer__phone_block">
+                  <b>Даниил Сергеев</b> - гл. дизайнер<br>
+                  +7 90 50 223 <b>777</b>
+                </div>
+              </div>
+              <div class="footer__phone">
+                <span class="footer--bold">адрес</span>
+                <a href="https://yandex.ru/maps/43/kazan/?source=wizgeo&utm_source=serp&l=map&utm_medium=maps-desktop&mode=search&text=%D0%A0%D0%BE%D1%81%D1%81%D0%B8%D1%8F%2C%20%D0%A0%D0%B5%D1%81%D0%BF%D1%83%D0%B1%D0%BB%D0%B8%D0%BA%D0%B0%20%D0%A2%D0%B0%D1%82%D0%B0%D1%80%D1%81%D1%82%D0%B0%D0%BD%2C%20%D0%9A%D0%B0%D0%B7%D0%B0%D0%BD%D1%8C%2C%20%D1%83%D0%BB%D0%B8%D1%86%D0%B0%20%D0%94%D0%B7%D0%B5%D1%80%D0%B6%D0%B8%D0%BD%D1%81%D0%BA%D0%BE%D0%B3%D0%BE%2C%209%2F1&sll=49.106324%2C55.798551" target="_blank" class="footer__phone_block">
+                  <b>РТ, г. Казань,<br>
+                      ул. Дзержинского, 9/1, оф. 29</b>
+                </a>
+              </div>
+            </div>
+            <a href="" class="footer__logo"></a>
+          </div>
+        </div>
+      </div>
+    </section> 
+
+  </main>
+  
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="js/scrolloverflow.min.js"></script>
+  <script src="js/jquery.fullpage.min.js"></script>
+  <script src="js/main.js"></script>
 </body>
-
 </html>
