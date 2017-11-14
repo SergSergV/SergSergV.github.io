@@ -1,7 +1,7 @@
 $(document).ready(function(){
   $('.page').fullpage({
       scrollOverflow: true,
-      touchSensitivity: 30
+      touchSensitivity: 20
     });
 
   $('.price__btn').click(function(){

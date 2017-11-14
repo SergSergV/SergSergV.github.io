@@ -1020,10 +1020,7 @@ body {
     width: 310px;
     background-size: contain;
   }
-  .clothes {
-    background: url(../images/bgs/mobile/bg6-mobile-right.png) no-repeat top right;
-    background-size: auto 100%;
-  }
+  
   .clothes-container {
     padding-top: 100px;
   }
