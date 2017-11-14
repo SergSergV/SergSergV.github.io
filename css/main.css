@@ -1030,7 +1030,7 @@ body {
   }
   .footer__contacts a {
     width: 320px;
-    background-size: auto;
+    background-size: 100% auto;
     background-position: 0 0;
   }
 }
