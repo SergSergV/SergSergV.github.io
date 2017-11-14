@@ -1028,10 +1028,22 @@ body {
     width: 320px;
     margin: 0 auto;
   }
+  .footer__bottom > div {
+    width: 100%;
+  }
   .footer__contacts a {
     width: 320px;
     background-size: 100% auto;
     background-position: 0 0;
+  }
+  .footer--bold {
+    font-size: 36px;
+  }
+  .footer__phone {
+    width: 100%;
+  }
+  .footer__phone_block {
+    font-size: 18px;
   }
 }
 
