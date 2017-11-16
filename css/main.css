@@ -992,6 +992,9 @@ body {
 
 @media screen and (max-width: 600px) {
   .client {
+    /* width: 100%; */
+  }
+  .client img {
     width: 100%;
   }
   .clients__title {
@@ -1044,6 +1047,16 @@ body {
   }
   .footer__phone_block {
     font-size: 18px;
+  }
+  .smm__content {
+    padding-top: 50px;
+    background: none;
+  }
+  .teammate {
+    margin: 10px 20px 0;
+  }
+  .team__title {
+    margin-bottom: 0;
   }
 }
 
