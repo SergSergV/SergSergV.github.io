@@ -995,15 +995,15 @@ body {
     /* width: 100%; */
   }
   .client img {
-    width: 80%;
+    width: 60%;
   }
   .clients__title {
     width: 300px;
-    margin: 0 auto 40px;
+    margin: 0 auto 20px;
     background-size: contain;
   }
   .client {
-    margin-bottom: 30px;
+    margin-bottom: 10px;
   }
   .wedraw__portfolio {
     width: 310px;
