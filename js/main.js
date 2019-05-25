@@ -1,26 +1,48 @@
 $(document).ready(function(){
-  $('.page').fullpage({
-      scrollOverflow: true,
-      touchSensitivity: 15
-    });
 
-  $('.price__btn').click(function(){
-    $('.price-block').addClass('price-block--show');
+  $(".js-getcall").click(function(){
+    $(".popup-block").hide();
+    $("#popup-getcall").show();
+    $(".popup").addClass("popup--show");
   });
-  $('.price-block').click(function(){
-    $('.price-block').removeClass('price-block--show');
+  
+  $(".popup-close").click(function(){
+    $(".popup").removeClass("popup--show");
+  });
+  $(".popup-bg").click(function(){
+    $(".popup").removeClass("popup--show");
   });
 
-  $(".menu__item--contacts").click(function(){
-    $.fn.fullpage.moveTo(7, 0);
+
+  $(".js-butter").click(function(){
+    $(".js-menu").addClass("menu--show");
   });
-  $(".menu__item--wedraw").click(function(){
-    $.fn.fullpage.moveTo(4, 0);
+  $(".js-close").click(function(){
+    $(".js-menu").removeClass("menu--show");
   });
-  $(".menu__item--smm").click(function(){
-    $.fn.fullpage.moveTo(5, 0);
+  $(".js-menu").click(function(){
+    $(".js-menu").removeClass("menu--show");
   });
-  $(".menu__item--clothes").click(function(){
-    $.fn.fullpage.moveTo(6, 0);
+
+  $('.js-slider').slick({
+    arrows: true,
+    infinite: true,
+    autoplay: true,
+    autoplaySpeed: 5000
   });
+
+  
+
+
+  $("a[href^='#']").click(function(){
+    var _href = $(this).attr("href");
+    $("html, body").animate({scrollTop: $(_href).offset().top});
+    return false;
+  });
+  
+  
+  $(function() {
+    $("[type=tel]").mask("+7 (999) 999-99-99");
+  });
+
 });

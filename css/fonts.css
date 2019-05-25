@@ -1,24 +1,28 @@
 @font-face {
-	font-family: 'A Avante Bs';
-	src: url('../fonts/AAvanteBs.ttf') format('truetype'), 
-		url('../fonts/AAvanteBs.woff') format('woff'),
-		url('../fonts/AAvanteBs.woff2') format('woff2');
-	font-weight: normal;
-	font-style: normal;
+  font-family: 'Stem';
+  src: url("../fonts/Stem/Stem-Regular.eot");
+  src: url("../fonts/Stem/Stem-Regular.eot?iefix") format("eot"), 
+  url("../fonts/Stem/Stem-Regular.woff") format("woff"), 
+  url("../fonts/Stem/Stem-Regular.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal; 
 }
 @font-face {
-	font-family: 'A Avante Bs Extra Bold';
-	src: url('../fonts/AAvanteBs-ExtraBold.ttf') format('truetype'), 
-		url('../fonts/AAvanteBs-ExtraBold.woff') format('woff'),
-		url('../fonts/AAvanteBs-ExtraBold.woff2') format('woff2');
-	font-weight: normal;
-	font-style: normal;
+  font-family: 'Stem';
+  src: url("../fonts/Stem/Stem-Bold.eot");
+  src: url("../fonts/Stem/Stem-Bold.eot?iefix") format("eot"), 
+  url("../fonts/Stem/Stem-Bold.woff") format("woff"), 
+  url("../fonts/Stem/Stem-Bold.ttf") format("truetype");
+  font-weight: 700;
+  font-style: normal; 
 }
+
 @font-face {
-	font-family: 'DIN Pro';
-	src: url('../fonts/DINPro-Bold.ttf') format('truetype'), 
-		url('../fonts/DINPro-Bold.woff') format('woff'),
-		url('../fonts/DINPro-Bold.woff2') format('woff2');
-	font-weight: normal;
-	font-style: normal;
+  font-family: 'Myriad Pro';
+  src: url("../fonts/MyriadPro/MyriadProRegular.eot");
+  src: url("../fonts/MyriadPro/MyriadProRegular.eot?iefix") format("eot"), 
+  url("../fonts/MyriadPro/MyriadProRegular.woff") format("woff"), 
+  url("../fonts/MyriadPro/MyriadProRegular.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal; 
 }
