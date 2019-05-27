@@ -634,10 +634,15 @@
       <div class="popup-block popup-block__getcall" id="popup-getcall">
         <span class="form__title">Закажите звонок </span>
         <form class="popup__form call-form">
-          <input type="text" class="input popup__input" placeholder="Имя" required>
-          <input type="text" class="input popup__input" placeholder="Фамилия" required>
-          <input type="tel" class="input popup__input" placeholder="+7 " required>
-          <textarea class="textarea input" placeholder="Комментарии"></textarea>
+          <!-- Hidden Required Fields -->
+          <input type="hidden" name="project_name" value="SergeevBrothers">
+          <input type="hidden" name="admin_email" value="lvbnhbq2103@mail.com">
+          <input type="hidden" name="form_subject" value="Заявка с сайта">
+          <!-- END Hidden Required Fields -->
+          <input type="text" name="firstName" class="input popup__input" placeholder="Имя" required>
+          <input type="text" name="secondName" class="input popup__input" placeholder="Фамилия" required>
+          <input type="tel" name="phone" class="input popup__input" placeholder="+7 " required>
+          <textarea class="textarea input" name="mess" placeholder="Комментарии"></textarea>
           <input type="submit" class="input submit popup__submit">
           <span class="form__title">Или свяжитесь с нами в соц.сетях</span>
           <a href="https://www.instagram.com/sergeevbrothers" class="popup__soc-link">INS</a>
